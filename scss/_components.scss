@@ -71,6 +71,10 @@
     &__wrapper {
         width: 70%;
         @include center;
+        @media screen and (max-width: 22em){
+            width: 90%;
+        }
+
     }
     
     &__text {

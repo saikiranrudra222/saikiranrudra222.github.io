@@ -63,6 +63,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media screen and (max-width: 22em) {
+      .hero__wrapper {
+        width: 90%; } }
   .hero__text {
     color: #eee;
     font-weight: 600;
